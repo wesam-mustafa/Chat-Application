@@ -1,0 +1,50 @@
+body {
+    background-image:url("./images/1.jpg");
+    font-family:Arial, Helvetica, sans-serif;
+}
+#container{
+    width: 700px;
+    margin: 0 auto;
+}
+#chatWindow{
+    overflow-y: scroll;
+    height: 300px;
+}
+#mainWrapper{
+    display: none;
+}
+#chatWrapper{
+    float: left;
+    border: 1px solid #ccc;
+    background: #f4f4f4;
+    border-radius: 10px;
+    padding: 10px;
+}
+#userWrapper{
+    float: left;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #f4f4f4;
+    padding: 10px;
+    margin-left: 20px;
+    width: 150px;
+    max-height: 200px;
+}
+#namesWrapper{
+    float: left;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #f4f4f4;
+    padding: 10px;
+    margin-left: 20px;
+
+}
+#users{
+    overflow-y: scroll;
+}
+input{
+    height: 30px;
+}
+h2{
+    color:goldenrod;
+}
